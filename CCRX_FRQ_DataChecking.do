@@ -618,7 +618,9 @@ rename wnno_method_available why_not_usingnomethod
 rename wninconvenient why_not_usinginconv
 rename wninterferes_with_body why_not_usingbodyproc
 rename wnother why_not_usingother
-order why_not_usingnotmarr-why_not_usingother, after(why_not_using)
+rename wndontknow why_not_usingdontknow
+rename wnnoresponse why_not_usingnoresponse
+order why_not_usingnotmarr-why_not_usingnoresponse, after(why_not_using)
 
 *Awareness 
 unab vars: heard_*
