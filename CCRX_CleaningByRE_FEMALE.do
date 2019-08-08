@@ -26,6 +26,8 @@ replace  structure=162 if  structure==192 & metainstanceID=="uuid:68437931-e4d2-
 
 *RE N0001
 replace married=1 if metainstanceID=="uuid:xxxxxxxxxx"
+replace age_at_first_sex=20 if metainstanceID=="uuid:xxxxxxxxxx" 
+
 *RE N0002
 replace married=4 if metainstanceID=="uuid:yyyyyyyyyyy"
 
